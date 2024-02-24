@@ -12,13 +12,15 @@ body {
 
 #app {
   max-width: 480px;
-  min-height: 100vh;
+  min-height: 120vh;
   margin: auto;
   background-color: white;
+  
 }
 
 .App {
   text-align: center;
+
 }
 
 
@@ -50,7 +52,7 @@ white-space: nowrap;
 width: 168px;
 height: 22px;
 left: 41px;
-top: 100px;
+top: 90px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -71,9 +73,11 @@ position: relative;
 width: 420px;
 height: 0px;
 left: 30px;
-top: 100px;
+top: 150px;
+margin-top: -50px;
 
-border: 1px solid #D7D7D7;
+border: 1px solid #d7d7d7;
+
 
 
 }
@@ -84,7 +88,8 @@ position: relative;
 width: 100px;
 height: 100px;
 left: -150px;
-top: 120px;
+top: 160px;
+margin-bottom: -10px;
 
 /* background: url(image.png); */
 border-radius: 6px;
@@ -99,7 +104,7 @@ position: relative;
 width: 195px;
 height: 19px;
 left: 155px;
-top: 15px;
+top: 60px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -116,10 +121,11 @@ color: #000000;
   /* 아메리카노 4,900원 */
 
 position: relative;
+text-align: left;
 width: 122px;
 height: 17px;
 left: 155px;
-top: 20px;
+top: 65px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -141,7 +147,7 @@ position: relative;
 width: 239px;
 height: 34px;
 left: 155px;
-top: 25px;
+top: 70px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -149,9 +155,23 @@ font-weight: 500;
 font-size: 14px;
 line-height: 17px;
 text-align: left;
+margin-bottom: -10px;
 
 color: #ADADAD;
 
+
+
+}
+
+
+
+.isFavorite{
+  position: relative;
+width: 25px;
+height: 25px;
+left: 190px;
+top: 0px;
+margin-bottom: -10px;
 
 
 }
