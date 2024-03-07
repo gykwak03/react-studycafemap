@@ -6,7 +6,6 @@ import CafeDetailPage from "./CafeDetailPage";
 import "./App.css";
 
 function App() {
-  console.log('앱 렌더링');
   const [list, setList] = useState(
     cafes.data.map((cafe) => ({
       name: cafe.name,

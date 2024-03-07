@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./MainPage.css";
 
 const MainPage = ({ cafes, list, changeFavorite }) => {
-  console.log('메인페이지 렌더링')
   return (
     <div id="MainPage" className="MainPage">
       <h1 className="Logo">LOGO</h1>

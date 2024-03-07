@@ -10,46 +10,182 @@
     border: none; /* 버튼의 기본 테두리 제거 */
     cursor: pointer; /* 마우스를 가져다 대면 커서 모양 변경 (선택사항) */
     outline: none; /* 클릭 시 버튼 주위에 나타나는 테두리 제거 (선택사항) */
-
     /* Frame */
-  
+    
   }
-
+  
   .review{
     /* 리뷰 */
-
-position: relative;
-width: 33.76px;
-height: 22px;
-left: 43.92px;
-top: 100px;
+    
+    position: relative;
+    width: 33.76px;
+    height: 22px;
+    left: 43.92px;
+    top: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    white-space: nowrap;
+    
+    /* identical to box height */
+    
+    color: #000000;
+    
+    
+  }
+  
+  .grayLine{
+    /* underline */
+    
+    position: relative;
+    width: 420px;
+    height: 0px;
+    left: 30px;
+    top: 150px;
+    margin-top: -50px;
+    
+    border: 1px solid #d7d7d7;
+    
+    
+    
+  }
+  
+  .comment
+  {
+    /* 눈치안보고 코딩할 수 있어서 좋아요 */
+    
+position: absolute;
+width: 209px;
+height: 17px;
+left: 16px;
+top: 75px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-white-space: nowrap;
-
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
 /* identical to box height */
 
 color: #000000;
 
 
-  }
-  
-  .grayLine{
-    /* underline */
-  
-  position: relative;
-  width: 420px;
-  height: 0px;
-  left: 30px;
-  top: 150px;
-  margin-top: -50px;
-  
-  border: 1px solid #d7d7d7;
-  
-  
+}
 
-  }
+.showTag{
+  position: relative;
+  height: 33px;
+  left: 0px;
+
+  background: #FFFFFF;
+  border: 1px solid #ADADAD;
+  border-radius: 16px;
+  white-space: nowrap;
+  padding: 0 10px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 9999999;
+}
+
+.profileImage{
+ /* Ellipse 1 */
+
+position: relative;
+width: 45px;
+height: 45px;
+left: 16px;
+top: 15px;
+border-radius: 50%;
+
+background: #D9D9D9;
+
+
+}
+
+.date{
+  /* 02/24 */
+
+position: relative;
+width: 34px;
+height: 15px;
+left: 80px;
+top: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #ADADAD;
+
+
+}
+
+.profileName{
+  /* 익명의 누군가 */
+
+position: relative;
+width: 81px;
+height: 17px;
+left: 79px;
+top: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.realComment{
+  /* 눈치안보고 코딩할 수 있어서 좋아요 */
+
+position: relative;
+width: 209px;
+height: 17px;
+left: 16px;
+top: 75px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.realTag{
+  /* tag */
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: relative;
+height: 27px;
+left: 16px;
+right: 319.02px;
+top: calc(50% - 27px/2 + 41px);
+display: inline-block;
+color: #5E94FF;
+background: #FFFFFF;
+border: 1px solid #5E94FF;
+border-radius: 16px;
+
+
+}

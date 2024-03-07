@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import SubmitToLocalStorage from "./SubmitToLocalStorage";
 
 const WriteReview = ({ onClose }) => {
-  console.log("WriteReview 컴포넌트 렌더링");
   const { name } = useParams();
 
   const tags = ["자리적음", "자리많음", "콘센트적음", "콘센트많음", "조용함"];
@@ -28,9 +27,11 @@ const WriteReview = ({ onClose }) => {
   }
 
   function handleSubmit() {
+    let now = new Date();
     SubmitToLocalStorage(name, {
-      userComment: text,
-      userTags: buttonStates,
+      // userComment: text,
+      // userTags: buttonStates,
+      userReview: [text, buttonStates, now],
     });
     onClose(); // 작성 완료 후에 onClose() 호출
   }
