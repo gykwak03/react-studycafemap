@@ -13,7 +13,7 @@ function App() {
     }))
   );
 
-  const changeFavorite = (name, favorite) => {
+  const changeFavorite = (name) => {
     setList((prevList) => {
       return prevList.map((item) => {
         if (item.name === name) {
@@ -40,7 +40,13 @@ function App() {
           />
           <Route
             path="/cafe/:name"
-            element={<CafeDetailPage cafes={cafes.data} />}
+            element={
+              <CafeDetailPage
+                cafes={cafes.data}
+                list={list}
+                changeFavorite={changeFavorite}
+              />
+            }
           />
         </Routes>
       </div>
