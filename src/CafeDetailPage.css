@@ -1,3 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+.cafe-detail {
+  margin: 0;
+  padding: 0;
+}
+
+.detail-Logo{
+  /* LOGO */
+display: inline-block;
+width: 88px;
+height: 36px;
+left: 194px;
+top: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 36.31px;
+
+color: #5E94FF;
+}
+
+.detail-cafe-picture{
+  /* cafe image */
+width: 480px;
+height: 280px;
+top: 78px;
+margin-bottom: 2px;
+
+}
+
+.detail-cafeName {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+}
+
+.detail-isFavorite {
+  margin-top: 10px; 
+  margin-left: 430px; 
+}
+
+.detail-americanoCost {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+}
+
+.detail-characteristic {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 23px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+
+  color: #ADADAD;
+}
+
+.detail-tags {
+  position: absolute;
+  margin-left: 20px;
+  overflow-x: auto;
+}
+
+.detail-tag-container {
+  display: inline-block;
+  margin-top: 65px;
+  margin-left: 5px;
+}
+
+.detail-tag {
+  padding: 5px 10px;
+  border: 1px solid #5E94FF;
+  border-radius: 20px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #5E94FF;
+}
 .writeComment {
     position: relative;
     width: 55px;
@@ -45,7 +139,8 @@
     height: 0px;
     left: 30px;
     top: 150px;
-    margin-top: -50px;
+    margin-bottom: 50px;
+
     
     border: 1px solid #d7d7d7;
     
@@ -97,7 +192,7 @@ position: relative;
 width: 45px;
 height: 45px;
 left: 16px;
-top: 15px;
+top: 150px;
 border-radius: 50%;
 
 background: #D9D9D9;
@@ -112,7 +207,8 @@ position: relative;
 width: 34px;
 height: 15px;
 left: 80px;
-top: 42px;
+top: 110px;
+white-space:nowrap;
 
 font-family: 'Inter';
 font-style: normal;
@@ -133,7 +229,8 @@ position: relative;
 width: 81px;
 height: 17px;
 left: 79px;
-top: 19px;
+top: 165px;
+white-space: nowrap;
 
 font-family: 'Inter';
 font-style: normal;

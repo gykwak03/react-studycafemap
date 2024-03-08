@@ -6,7 +6,7 @@ import styles from "./ahyeon.module.css";
 import WriteReview from "./WriteReview";
 import { logDOM } from "@testing-library/react";
 
-const CafeDetailPage = ({ cafes }) => {
+const CafeDetailPage = ({ cafes, list, changeFavorite }) => {
   const [showReview, setShowReview] = useState(false);
   const { name } = useParams();
   const cafe = cafes.find((cafe) => cafe.name === name);
@@ -37,6 +37,7 @@ const CafeDetailPage = ({ cafes }) => {
 
   return (
     <main>
+      <h1 className="detail-Logo">LOGO</h1>
       <h2 className="review">리뷰</h2>
       <div className="grayLine"></div>
       {localData.userReview
