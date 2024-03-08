@@ -39,7 +39,7 @@ function App() {
             }
           />
           <Route
-            path="/cafe/:name"
+            path="/cafe/:id"
             element={
               <CafeDetailPage
                 cafes={cafes.data}
